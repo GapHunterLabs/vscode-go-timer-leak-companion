@@ -2,7 +2,7 @@
   "name": "go-timer-leak-companion",
   "displayName": "Go Timer Leak Companion",
   "description": "Flags case <-time.After(...) inside a select block -- the timer isn't GC'd until it fires, leaking on every loop iteration. No data leaves your editor.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "GapHunterLabs",
   "icon": "images/icon.png",
   "license": "Apache-2.0",
